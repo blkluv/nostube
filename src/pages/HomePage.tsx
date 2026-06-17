@@ -18,7 +18,7 @@ export function HomePage() {
   useEffect(() => {
     document.title = `${t('navigation.home')} - nostube`
     return () => {
-      document.title = 'nostube'
+      document.title = 'rawtube.'
     }
   }, [t])
   const relays = useStableRelays()
